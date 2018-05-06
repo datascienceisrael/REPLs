@@ -11,6 +11,11 @@
 # 3. sudo apt-get install python3-urllib3 # for python 3
 #    or
 #    pip3 install urllib3 # for python 3
+#
+#    Usage example:
+#    Usage  : python download_google_images_in_time_range.py search_keywords requested_start_date(mm/dd/yyyy) num_of_days download_limit_per_day(max 100)  output_directory  split_by_date_flag
+#    Example: python download_google_images_in_time_range_main.py dog 01/25/2018 70 /home/dan/source/taboola/3rd_party/google-images-download/google_images_download/downloads/ 0
+#             This downloads dog images created 01/25/2018 and the next 70 days, 98 images per day, to the directory /home/dan/source/taboola/3rd_party/google-images-download/google_images_download/downloads/dog/
 # Author: Dan
 # Last updated: 2018-05-06
 # ---------------------------------------------------------------------------------------
